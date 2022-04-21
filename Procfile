@@ -1,1 +1,1 @@
-worker: python bot/main.py
+worker: python bot/husky_discord_bot.py
