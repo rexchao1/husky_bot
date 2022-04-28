@@ -13,28 +13,28 @@ bot = commands.Bot(command_prefix='!')
 
 
 memes = []
-path1 = os.getcwd() + '/Memes'
+path1 = os.getcwd() + '/bot/Memes'
 listing = os.listdir(path1)
 for file in listing:
   path = path1 + '/' + file
   memes.append(path)
 
 good_huskies = []
-path2 = os.getcwd() + '/good_images'
+path2 = os.getcwd() + '/bot/good_images'
 listing2 = os.listdir(path2)
 for file in listing2:
   path = path2 + '/' + file
   good_huskies.append(path)
 
 bad_huskies = []
-path3 = os.getcwd() + '/bad_images'
+path3 = os.getcwd() + '/bot/bad_images'
 listing3 = os.listdir(path3)
 for file in listing3:
   path = path3 + '/' + file
   bad_huskies.append(path)
 
 normal_huskies = []
-path4 = os.getcwd() + '/normal_images'
+path4 = os.getcwd() + '/bot/normal_images'
 listing4 = os.listdir(path4)
 for file in listing4:
   path = path4 + '/' + file
